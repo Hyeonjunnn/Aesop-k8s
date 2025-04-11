@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: aesop-api-service
 spec:
-  type: ClusterIP
-  # type: NodePort
+  # type: ClusterIP
+  type: NodePort
   selector:
     app: aesop-api
   ports:
